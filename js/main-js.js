@@ -51,7 +51,7 @@ window.onload = function (e) {
                  <div class="row justify-content-center">
                       <div class="col-auto">
                         <section class="sec Copyright">
-                          <p class="footer_p_i_h2_a footer_p_i_a">Copyright &copy; Copyright 2020 Ristorante Con Fusion| All Rights Reserved |</p>
+                          <p class="footer_p_i_h2_a footer_p_i_a">Copyright &copy; Copyright 2020  Ristorante Con Fusion| All Rights Reserved |</p>
                   </section>
                       </div>
                  </div>
