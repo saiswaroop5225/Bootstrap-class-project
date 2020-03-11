@@ -1,6 +1,6 @@
-*{
-  padding: 0px;
-  margin: 0px;
+body {
+  padding: 40px 0px 0px 0px;
+  z-index: 0;
 }
 #jumbo-images1{
   position:relative;
@@ -15,13 +15,10 @@
   height:130px;
 }
 .jumbotron{
-  padding-bottom: 40px;
-  padding-top: 40px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border-radius: 0 0 0 0 ;
-  background-image: linear-gradient(45deg,teal,black);
-  color: white;
+  margin: 0px auto;
+  padding: 30px 30px;
+  background: #9575CD;
+  color: floralwhite;
 }
 h1{
   font-size:1.2rem;
@@ -78,8 +75,37 @@ h1{
   padding: 10px 30px 10px 30px;
 }
 .dropdown-item{
-  color:white
+  color:white;
+  background-color:#512DA8;
 }
 .dropdown-item:hover{
-  background: lightgrey;
+  background:#9575CD;
+}
+#logo{
+  width:50px;
+  height: 37px;
+
+}
+li{
+  float: left;
+  position: relative;
+  padding: 0px 10px 0px 10px;
+}
+.navbar{
+background-color:#512DA8;
+}
+.dropdown-menu{
+  color:black;
+  background-color:#512DA8;
+
+}
+.row-header {
+margin: 0px auto;
+padding: 0px 0px;
+}
+.row-content {
+margin: 0px auto;
+padding: 20px 0px;
+border-bottom: 1px ridge;
+min-height: 400px;
 }
