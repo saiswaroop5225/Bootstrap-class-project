@@ -82,86 +82,61 @@ window.onload = function (e) {
                   </button>
                     <div class="collapse navbar-collapse" id="Navbar">
                       <ul class="nav navbar-nav">
+                      <li class="nav-item"><a class="navbar-brand" href="index.html"><img src="gallery/logo.jpg" alt="Logo"></a></li>
                         <li class="nav-item">
                           <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">E-adhyaye</a>
+                            <a class="nav-link text-white" href="#">Menu</a>
                           </li>
                         <li class="nav-item dropdown dmenu">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
                               About
                             </a>
                             <div class="dropdown-menu sm-menu text-white">
-                              <a class="dropdown-item text-white" href="about_iccr_lab.html">About ICCRLAB</a>
+                              <a class="dropdown-item text-white" href="about_iccr_lab.html">About Restaurant</a>
                               <div class="dropdown-divider"></div>
-                              <a class="dropdown-item text-white" href="about_institute.html">About Institute</a>
+                              <a class="dropdown-item text-white" href="about_institute.html">About Chefs</a>
                             </div>
                           </li>
                           <li class="nav-item dropdown dmenu">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
-                              Papers
+                              Items
                             </a>
                             <div class="dropdown-menu sm-menu">
-                              <a class="dropdown-item text-white" href="call_for_papers.html">Call For Papers</a>
+                              <a class="dropdown-item text-white" href="call_for_papers.html">Veg Items</a>
                               <div class="dropdown-divider"></div>
-                              <a class="dropdown-item text-white" href="paper_submission.html">Paper Submission</a>
+                              <a class="dropdown-item text-white" href="paper_submission.html">Non-veg Items</a>
                             </div>
                           </li>
 
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="Registrations.html">Registrations</a>
+                            <a class="nav-link text-white" href="Registrations.html">Orderings</a>
                           </li>
                           <li class="nav-item">
-                          <a class="nav-link text-white" href="important_dates.html">Important Dates</a>
+                          <a class="nav-link text-white" href="important_dates.html">Dish of the Day</a>
                         </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="publications.html">Publications</a>
+                            <a class="nav-link text-white" href="publications.html">Contact</a>
                           </li>
                         <li class="nav-item dropdown dmenu">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
                           Committee
                         </a>
                         <div class="dropdown-menu sm-menu">
-                          <a class="dropdown-item text-white" href="steering_committee.html">Steering Committee</a>
+                          <a class="dropdown-item text-white" href="steering_committee.html">Committee</a>
                           <div class="dropdown-divider"></div>
-                          <a class="dropdown-item text-white" href="Advisory_and_technical_committee.html">Advisory And Technical committee</a>
+                          <a class="dropdown-item text-white" href="Advisory_and_technical_committee.html">Advisory committee</a>
                         </div>
                       </li>
 
+
                       <li class="nav-item">
-                        <a class="nav-link text-white " href="conference_venue.html">Conference Venue</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="downloads.html">Downloads</a>
+                        <a class="nav-link text-white" href="downloads.html">Booking</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link text-white" href="#">Gallery</a>
                       </li>
-
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="spon_sorship.html">Sponsorship</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Speakers</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Accommodation</a>
-                      </li>
-
-                      <li class="nav-item dropdown dmenu">
-                      <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
-                        Sessions
-                      </a>
-                      <div class="dropdown-menu sm-menu">
-                        <a class="dropdown-item text-white" href="session-1.html">Session 1</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-white" href="#">Session 2</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-white" href="#">Session 3</a>
-
-                      </div>
-                    </li>
                       </ul>
                     </div>
         `);
